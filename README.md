@@ -101,7 +101,7 @@ Multi-Tenant SaaS/
 
 #### الذكاء الاصطناعي والتعلم الآلي
 - **LangChain**: إطار عمل الذكاء الاصطناعي
-- **Google Gemini 2.5 Flash**: نموذج اللغة للاستجابات الذكية
+- **Google Gemini 2.5 Flash-Lite**: نموذج اللغة للاستجابات الذكية
 - **Qdrant Vector DB**: البحث الدلالي
 - **Pydantic**: التحقق من صحة البيانات
 
@@ -234,7 +234,7 @@ SMTP_SENDER_NAME=Alhassan AI Startup
 
 # Google Gemini
 GOOGLE_API_KEY=your-gemini-api-key
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=Google Gemini 2.5 Flash-Lite
 
 # التسعير
 INPUT_TOKEN_PRICE_PER_MILLION=0.10
@@ -563,7 +563,7 @@ pytest --cov=app tests/
 
 ### الإصدار 2.1.0
 - محرك كتالوج مركزي مدعوم بالذكاء الاصطناعي
-- دعم Gemini 2.5 Flash لإثراء المنتجات
+- دعم Google Gemini 2.5 Flash-Lite لإثراء المنتجات
 - قوالب Prompts خاصة بكل فئة (10 فئات)
 - حقن مزدوج متزامن (PostgreSQL + Qdrant)
 - معالجة غير متزامنة مع مهام خلفية
